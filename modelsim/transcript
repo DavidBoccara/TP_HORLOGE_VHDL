@@ -1,0 +1,29 @@
+vsim -gui work.impulsion_tb
+# vsim -gui work.impulsion_tb 
+# Start time: 09:16:15 on Sep 02,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.impulsion_tb(testbench)
+# Loading work.impulsion(rtl)
+add wave -position insertpoint sim:/impulsion_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: David  Hostname: DESKTOP-RIRBRF8  ProcessID: 16524
+#           Attempting to use alternate WLF file "./wlftjkz7jh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjkz7jh
+run
+# Break key hit
+# Break in Process line__23 at C:/Users/David/OneDrive/Bureau/tp JLF/sources/Impulsion.vhd line 23
+run
+add wave -position insertpoint sim:/impulsion_tb/impulsion/*
+# Break key hit
+# Simulation stop requested.
+restart -f
+restart
+run
+# Break key hit
+# Break in Process line__23 at C:/Users/David/OneDrive/Bureau/tp JLF/sources/Impulsion.vhd line 23
+# End time: 10:05:30 on Sep 02,2020, Elapsed time: 0:49:15
+# Errors: 0, Warnings: 2
