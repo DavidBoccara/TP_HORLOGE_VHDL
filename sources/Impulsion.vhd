@@ -5,7 +5,7 @@ library ieee ;
 entity 	impulsion is
 generic (
 	--CLK_DIVIDER : natural;
-	CLK_DIVIDER  : natural := 50000000	--Diviseur
+	CLK_DIVIDER  : natural 	--Diviseur
 	);
   port (
   	clk			:	in std_logic;		-- Oscillateur 50MHz
