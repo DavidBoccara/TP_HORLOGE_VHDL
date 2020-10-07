@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top
-Wed Oct 07 14:33:00 2020
+Wed Oct 07 14:46:07 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -51,7 +51,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Oct 07 14:33:00 2020       ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 07 14:46:06 2020       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; top                                         ;
 ; Top-level Entity Name              ; top                                         ;
@@ -756,7 +756,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -766,7 +766,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Wed Oct 07 14:32:47 2020
+    Info: Processing started: Wed Oct 07 14:45:53 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off tp_vhdl -c top
 Info (16303): Aggressive Area optimization mode selected -- logic area will be prioritized at the potential cost of reduced timing performance
 Info (20032): Parallel compilation is enabled and will use up to 2 processors
@@ -865,9 +865,9 @@ Info (21057): Implemented 416 device resources after synthesis - the final resou
     Info (21061): Implemented 354 logic cells
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4807 megabytes
-    Info: Processing ended: Wed Oct 07 14:33:00 2020
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:31
+    Info: Peak virtual memory: 4808 megabytes
+    Info: Processing ended: Wed Oct 07 14:46:07 2020
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:30
 
 

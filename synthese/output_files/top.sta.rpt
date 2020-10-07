@@ -1,5 +1,5 @@
 Timing Analyzer report for top
-Wed Oct 07 14:33:25 2020
+Wed Oct 07 14:46:30 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -95,12 +95,12 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.06        ;
+; Average used               ; 1.05        ;
 ; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   5.5%      ;
+;     Processor 2            ;   4.8%      ;
 +----------------------------+-------------+
 
 
@@ -109,7 +109,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------+--------+--------------------------+
 ; SDC File Path ; Status ; Read at                  ;
 +---------------+--------+--------------------------+
-; top.sdc       ; OK     ; Wed Oct 07 14:33:21 2020 ;
+; top.sdc       ; OK     ; Wed Oct 07 14:46:27 2020 ;
 +---------------+--------+--------------------------+
 
 
@@ -829,7 +829,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Wed Oct 07 14:33:20 2020
+    Info: Processing started: Wed Oct 07 14:46:26 2020
 Info: Command: quartus_sta tp_vhdl -c top
 Info: qsta_default_script.tcl version: #1
 Info (20032): Parallel compilation is enabled and will use up to 2 processors
@@ -919,9 +919,9 @@ Info (332146): Worst-case minimum pulse width slack is 9.530
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4818 megabytes
-    Info: Processing ended: Wed Oct 07 14:33:25 2020
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 4814 megabytes
+    Info: Processing ended: Wed Oct 07 14:46:30 2020
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:04
 
 
