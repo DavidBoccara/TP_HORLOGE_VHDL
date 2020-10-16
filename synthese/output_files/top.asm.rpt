@@ -1,5 +1,5 @@
 Assembler report for top
-Wed Oct 07 14:46:24 2020
+Fri Oct 16 21:21:42 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/David/OneDrive/Bureau/TP_JLF/synthese/output_files/top.sof
+  5. Assembler Device Options: G:/TP/TP_JLF/synthese/output_files/top.sof
   6. Assembler Messages
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Oct 07 14:46:24 2020 ;
+; Assembler Status      ; Successful - Fri Oct 16 21:21:42 2020 ;
 ; Revision Name         ; top                                   ;
 ; Top-level Entity Name ; top                                   ;
 ; Family                ; MAX 10                                ;
@@ -53,23 +53,23 @@ https://fpgasoftware.intel.com/eula.
 +--------+---------+---------------+
 
 
-+---------------------------------------------------------------------+
-; Assembler Generated Files                                           ;
-+---------------------------------------------------------------------+
-; File Name                                                           ;
-+---------------------------------------------------------------------+
-; C:/Users/David/OneDrive/Bureau/TP_JLF/synthese/output_files/top.sof ;
-+---------------------------------------------------------------------+
++--------------------------------------------+
+; Assembler Generated Files                  ;
++--------------------------------------------+
+; File Name                                  ;
++--------------------------------------------+
+; G:/TP/TP_JLF/synthese/output_files/top.sof ;
++--------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/David/OneDrive/Bureau/TP_JLF/synthese/output_files/top.sof ;
-+----------------+------------------------------------------------------------------------------+
-; Option         ; Setting                                                                      ;
-+----------------+------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x002A3F2D                                                                   ;
-; Checksum       ; 0x002A3F2D                                                                   ;
-+----------------+------------------------------------------------------------------------------+
++----------------------------------------------------------------------+
+; Assembler Device Options: G:/TP/TP_JLF/synthese/output_files/top.sof ;
++----------------+-----------------------------------------------------+
+; Option         ; Setting                                             ;
++----------------+-----------------------------------------------------+
+; JTAG usercode  ; 0x002A3F2D                                          ;
+; Checksum       ; 0x002A3F2D                                          ;
++----------------+-----------------------------------------------------+
 
 
 +--------------------+
@@ -78,14 +78,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Wed Oct 07 14:46:21 2020
+    Info: Processing started: Fri Oct 16 21:21:39 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off tp_vhdl -c top
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4705 megabytes
-    Info: Processing ended: Wed Oct 07 14:46:24 2020
+    Info: Peak virtual memory: 4699 megabytes
+    Info: Processing ended: Fri Oct 16 21:21:42 2020
     Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 
